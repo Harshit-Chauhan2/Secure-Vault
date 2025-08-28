@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SecureVault - Your Digital Data Fortress</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="min-h-screen">
+        <!-- Header -->
+        <header class="glass-effect fixed w-full top-0 z-50">
+            <nav class="container mx-auto px-6 py-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-white text-xl"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">SecureVault</span>
+                    </div>
+                
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
+                        <a href="#storage" class="text-gray-300 hover:text-white transition-colors">Storage</a>
+                        <a href="#security" class="text-gray-300 hover:text-white transition-colors">Security</a>
+                    </div>
+                
+                    <div class="flex items-center space-x-4">
+                        <button class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+                            <i class="fas fa-lock mr-2"></i>Login
+                        </button>
+                        <button class="px-4 py-2 border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white rounded-lg transition-colors">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="pt-32 pb-20 px-6">
+            <div class="container mx-auto text-center">
+                <div class="max-w-4xl mx-auto">
+                    <div class="pulse-glow inline-flex items-center px-4 py-2 bg-blue-900/50 rounded-full mb-8">
+                        <div class="w-2 h-2 bg-blue-400 rounded-full mr-2"></div>
+                        <span class="text-blue-400 text-sm">256-bit AES Encryption Active</span>
+                    </div>
+                    
+                    <h1 class="text-5xl md:text-6xl font-bold text-white mb-6">
+                        Your Digital Fortress for
+                        <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Secure Data Storage</span>
+                    </h1>
+                    
+                    <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                        Military-grade encryption, zero-knowledge architecture, and seamless file management. 
+                        Your data is protected with the highest security standards.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors">
+                            <i class="fas fa-cloud-upload-alt mr-2"></i>Start Securing Your Data
+                        </button>
+                        <button class="px-8 py-4 border border-gray-600 text-gray-300 hover:border-blue-400 hover:text-white rounded-lg font-semibold transition-colors">
+                            <i class="fas fa-shield-alt mr-2"></i>Learn More
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="mt-20 max-w-6xl mx-auto">
+                    <div class="glass-effect secure-border rounded-2xl p-8">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                    <i class="fas fa-lock text-blue-400 text-2xl"></i>
+                                </div>
+                                <h3 class="text-white font-semibold mb-2">End-to-End Encryption</h3>
+                                <p class="text-gray-400 text-sm">Your data is encrypted before it leaves your device</p>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-green-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                    <i class="fas fa-cloud text-green-400 text-2xl"></i>
+                                </div>
+                                <h3 class="text-white font-semibold mb-2">Secure Cloud Storage</h3>
+                                <p class="text-gray-400 text-sm">Redundant storage across multiple secure locations</p>
+                            </div>
+                            
+                            <div class="text-center">
+                                <div class="w-16 h-16 bg-purple-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                    <i class="fas fa-user-shield text-purple-400 text-2xl"></i>
+                                </div>
+                                <h3 class="text-white font-semibold mb-2">Zero Knowledge</h3>
+                                <p class="text-gray-400 text-sm">We never have access to your encryption keys</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Storage Interface Section -->
+        <section id="storage" class="py-20 px-6">
+            <div class="container mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Your Secure Data Vault</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Access and manage your encrypted files with enterprise-grade security</p>
+                </div>
+                
+                <div class="glass-effect rounded-2xl p-8 max-w-6xl mx-auto">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-8">
+                        <div>
+                            <h3 class="text-white text-xl font-semibold">My Secure Files</h3>
+                            <p class="text-gray-400 text-sm">4.2 GB of 10 GB used</p>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 mt-4 sm:mt-0">
+                            <button class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors">
+                                <i class="fas fa-plus mr-2"></i>Upload File
+                            </button>
+                            <button class="px-4 py-2 border border-gray-600 text-gray-300 hover:border-blue-400 hover:text-white rounded-lg transition-colors">
+                                <i class="fas fa-folder-plus mr-2"></i>New Folder
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Storage Visualization -->
+                    <div class="mb-8">
+                        <div class="w-full bg-gray-700 rounded-full h-3 mb-2">
+                            <div class="bg-gradient-to-r from-blue-500 to-purple-600 h-3 rounded-full" style="width: 42%"></div>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-400">
+                            <span>4.2 GB used</span>
+                            <span>5.8 GB free</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Files Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="filesGrid">
+                        <!-- Files will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Security Features Section -->
+        <section id="security" class="py-20 px-6 bg-black/20">
+            <div class="container mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Advanced Security Measures</h2>
+                    <p class="text-gray-400 max-w-2xl mx-auto">Multiple layers of protection for your peace of mind</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="w-12 h-12 bg-red-600/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-fingerprint text-red-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">Biometric Access</h3>
+                        <p class="text-gray-400 text-sm">Fingerprint and face recognition for secure access</p>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="w-12 h-12 bg-yellow-600/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-key text-yellow-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">2FA Protection</h3>
+                        <p class="text-gray-400 text-sm">Two-factor authentication for added security</p>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="w-12 h-12 bg-green-600/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-history text-green-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">Version History</h3>
+                        <p class="text-gray-400 text-sm">30-day version history and file recovery</p>
+                    </div>
+                    
+                    <div class="glass-effect rounded-xl p-6 text-center">
+                        <div class="w-12 h-12 bg-purple-600/20 rounded-lg flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-shield-alt text-purple-400 text-xl"></i>
+                        </div>
+                        <h3 class="text-white font-semibold mb-2">SOC 2 Certified</h3>
+                        <p class="text-gray-400 text-sm">Enterprise-grade security compliance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Encryption Visualization -->
+        <section class="py-20 px-6">
+            <div class="container mx-auto">
+                <div class="glass-effect secure-border rounded-2xl p-8 max-w-4xl mx-auto">
+                    <div class="text-center mb-8">
+                        <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Real-time Encryption Process</h2>
+                        <p class="text-gray-400">Watch your data transform into secure encrypted format</p>
+                    </div>
+                    
+                    <div class="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-blue-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-file text-blue-400 text-3xl"></i>
+                            </div>
+                            <p class="text-white font-semibold">Original File</p>
+                            <p class="text-gray-400 text-sm">Unencrypted</p>
+                        </div>
+                        
+                        <div class="text-center encryption-animation">
+                            <i class="fas fa-arrow-right text-3xl text-blue-400"></i>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-purple-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-lock text-purple-400 text-3xl"></i>
+                            </div>
+                            <p class="text-white font-semibold">Encryption</p>
+                            <p class="text-gray-400 text-sm">AES-256</p>
+                        </div>
+                        
+                        <div class="text-center encryption-animation">
+                            <i class="fas fa-arrow-right text-3xl text-blue-400"></i>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="w-20 h-20 bg-green-600/20 rounded-xl flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-cloud text-green-400 text-3xl"></i>
+                            </div>
+                            <p class="text-white font-semibold">Secure Storage</p>
+                            <p class="text-gray-400 text-sm">Encrypted Cloud</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer class="glass-effect mt-20 py-12 px-6">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <div class="flex items-center space-x-2 mb-4">
+                            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-shield-alt text-white"></i>
+                            </div>
+                            <span class="text-xl font-bold text-white">SecureVault</span>
+                        </div>
+                        <p class="text-gray-400 text-sm">
+                            Your trusted partner in data security and encrypted cloud storage solutions.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-4">Product</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Features</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Pricing</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">Security</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">API</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-white font-semibold mb-4">Company</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>                            
